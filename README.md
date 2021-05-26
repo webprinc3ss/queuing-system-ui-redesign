@@ -5,7 +5,8 @@ both the Manage Queues and Add / Edit Queues pages.
 
 ## Deliverables
 Create a webpage(s) that is representative of the original version, but includes the following improvements:
- Improve the look and feel so that it both looks more attractive, but is also easier to use.
+
+- Improve the look and feel so that it both looks more attractive, but is also easier to use.
 
 - Include accessibility features such as labeling form controls, alternative text for images, and ensuring that all
 interactive parts of the page are keyboard accessible.
