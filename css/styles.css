@@ -42,9 +42,10 @@ table.table-hover tbody tr:hover {
 }
 
 a.tabledrag-handle .handle {
-    /* background: url(img/draggable) no-repeat 6px 9px; */
-    height: 13px;
-    margin: -0.4em 0.5em;
-    padding: 0.42em 0.5em;
-    width: 13px;
+    /* background-image: url("img/arrows-move-grey.svg") no-repeat 6px 9px; */
+    /* height: 13px; */
+    /* margin: -0.4em 0.5em;
+    padding: 0.42em 0.5em; */
+    /* width: 13px; */
+    cursor: move;
 }
