@@ -13,18 +13,18 @@
 
 <body>
     <header>
-        <nav class="navbar  ">
+        <nav class="navbar ">
             <div class="navbar-brand ml-auto"><a href="#">Log out</a></div>
         </nav>
         <h1>Manage Queues</h1>
     </header>
-    <div class="container">
-        <h2>Manage Permit Queues below.</h2>
+    <main class="container">
+        <h2 class="justify-center">Manage Permit Queues below.</h2>
         <table class="table table-striped table-hover">
             <caption>List of Queues</caption>
             <thead>
                 <tr>
-
+                    <th scope="col">&nbsp;</th>
                     <th scope="col">Queue Name</th>
                     <th scope="col">Default</th>
                     <th scope="col">Permits</th>
@@ -33,60 +33,51 @@
                     <th scope="col">Approved Requests</th>
                     <th scope="col">Operations</th>
                     <th scope="col">&nbsp;</th>
-                    <th scope="col">Position</th>
+                    <th scope="col ">Position</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
+
                     <td><a href="#" class="tabledrag-handle " title="Drag to re-order">
-                            <div class="handle"><img src="img/arrows-move.svg"
-                                    style="float:left; padding-right: 10px;" />
+                            <div class="handle"><img src="img/draggable-blue.png" class="drag-blue" />
                             </div>
-                        </a>
+                    </td>
+
+                    <td>
                         <span>Approved</span>
                     </td>
 
-                    <td>yes</td>
-                    <td>view</td>
-                    <td>view</td>
-                    <td>view</td>
-                    <td>view</td>
-                    <td><a href="#">Edit</a> | <a href="#">Remove</a></td>
-                    <td></td>
-                    <th scope="row">1</th>
+                    <td class="dot">yes</td>
+                    <td class="dot">view</td>
+                    <td class="dot">view</td>
+                    <td class="dot">view</td>
+                    <td class="dot">view</td>
+                    <td><a href="#">Edit</a></td>
+                    <td><a href="#">Remove</a></td>
+                    <th scope="row" class="position">1</th>
                 </tr>
                 <tr>
                     <td><a href="#" class="tabledrag-handle " title="Drag to re-order">
-                            <div class="handle"><img src="img/arrows-move.svg"
-                                    style="float:left; padding-right: 10px;" />
-                            </div>
+                            <div class="handle"><img src="img/draggable-blue.png" class="drag-blue" />
+                            </div>git
                         </a>
-                        <span>Approved</span>
                     </td>
 
-                    <td>yes</td>
-                    <td>view</td>
-                    <td>view</td>
-                    <td>view</td>
-                    <td>view</td>
-                    <td><a href="#">Edit</a> | <a href="#">Remove</a></td>
-                    <td></td>
-                    <th scope="row">1</th>
+                    <td><span>Amend Requests</span></td>
+                    <td class="dot">yes</td>
+                    <td class="dot">view</td>
+                    <td class="dot">view</td>
+                    <td class="dot">view</td>
+                    <td class="dot">view</td>
+                    <td><a href="#">Edit</a></td>
+                    <td><a href="#">Remove</a></td>
+                    <th scope="row" class="position">1</th>
                 </tr>
-                <!-- <tr>
 
-                    <td><a href="#" class="tabledrag-handle" title="Drag to re-order">
-                            <div class="handle"><img src="img/arrows-move-grey.svg" /></div>
-                        </a></td>
-                    <td>•</td>
-                    <td>Larry</td>
-                    <td>the Bird</td>
-                    <td>@twitter</td>
-                    <th scope="row">3</th>
-                </tr> -->
             </tbody>
         </table>
-    </div>
+        </div>
 
 </body>
 
