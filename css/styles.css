@@ -95,3 +95,7 @@ img.dot {
 td.q-name {
 line-height:20px !important;
 }
+
+.btn-success {
+    background-color: #007a54;
+}
