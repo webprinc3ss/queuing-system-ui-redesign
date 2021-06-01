@@ -29,13 +29,16 @@ nav.navbar-brand.mb-0 {
 
 h1 {
     font-size: 2.0em;
-    line-height: 80px;
+    /* line-height: 80px; */
     padding-left: 1.5rem;
     text-align: center;
+    color: blanchedalmond;
 }
 
 h2 {
-    font-size: 1.1em;
+    font-size: 1.4em;
+    line-height: 3em;
+    text-align:center;
 }
 
 table.table-hover tbody tr:hover {
