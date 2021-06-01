@@ -22,3 +22,11 @@ multiple web pages are required links between the pages should work.
 ## Limitations
 The deliverable must be in HTML, and can use Javacript, Bootstrap, jQuery, and CSS. No other libraries or frameworks
 can be used.
+
+## Recommendations
+
+## User Story
+
+## Credits/Software
+- Bootstrap 4.0
+- icons8.com - small blue "drag" and "new-moon" icons. If used professionally, one must pay for a license

@@ -60,7 +60,7 @@ th {
 } */
 
 th.position {
-    color:#999999;
+    color:#999;
     text-align: right;
 }
 
@@ -79,4 +79,16 @@ img.drag-blue {
     height: 16px;
     width: 16px;
     vertical-align: top;
+    margin-top: 2px;
+}
+
+img.dot {
+    height: 12px;
+    width: 12px;
+    /* padding-top: 3px; */
+    vertical-align: middle;
+}
+
+td.q-name {
+line-height:20px !important;
 }
