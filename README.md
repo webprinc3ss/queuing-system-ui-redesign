@@ -34,6 +34,7 @@ can be used.
     - I recommend form validation for any fields, such as envelopes, which require the User to enter specific types of measurements.
     - Colors pass https://coolors.co/contrast-checker/
     - Labels included.
+    - Options and links are keyboard-navigable.
     - HTML and CSS optimized for Chrome and MS Edge.
 
 
