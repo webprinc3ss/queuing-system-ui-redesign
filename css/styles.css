@@ -102,6 +102,14 @@ line-height:20px !important;
     background-color: #007a54;
 }
 
+a.edit-small {
+    display:none;
+}
+
+a.remove-small {
+    display:none;
+}
+
 @media all and (max-width: 980px) {
 
 H1 {
@@ -171,8 +179,8 @@ img.drag-blue {
 }
 
 img.dot {
-    height: 10px;
-    width: 10px;
+    height: 8px;
+    width: 8px;
     /* padding-top: 3px; */
     vertical-align: middle;
 }
@@ -193,6 +201,40 @@ button.btn.btn-success {
 button.btn.btn-secondary {
     width:100px;
     font-size: 13px;
+}
+
+th.operations {
+    visibility: hidden;
+}
+
+a.edit-big {
+    display:none;
+}
+
+a.remove-big {
+    display:none;
+}
+
+a.edit-small {
+    display:inline;
+    height: 12px;
+    width: 12px;
+}
+
+.edit {
+    height: 16px;
+    width: 16px;
+    padding-right: 5px;
+}
+
+a.remove-small {
+    display:inline;
+
+}
+
+.delete {
+    height: 16px;
+    width: 16px;
 }
 
 /* td.position th.th-position {
