@@ -18,365 +18,367 @@
             <h1>Manage Queues</h1>
             <div class="navbar-brand ml-auto"><a href="#" class="log-out">Log out</a></div>
         </nav>
-        <h2>Manage Permit Queues</h2>
+        <h2>Permit Queues</h2>
     </header>
     <main class="container border">
-        <div class="table-responsive">
-            <table class="table table-condensed table-striped table-hover">
-                <caption>List of Queues</caption>
-                <thead style="position: sticky;top: 0">
-                    <tr>
-                        <th scope="col">&nbsp;</th>
-                        <th scope="col">Queue Name</th>
-                        <th scope="col" class="type-small"><span class="big-type">Default</span>
-                            <select>
-                                <option value="" selected="selected" class="view-types">Types</option>
+        <form>
+            <div class="table-responsive">
+                <table class="table table-condensed table-striped table-hover">
+                    <caption>List of Queues</caption>
+                    <thead style="position: sticky;top: 0">
+                        <tr>
+                            <th scope="col">&nbsp;</th>
+                            <th scope="col">Queue Name</th>
+                            <th scope="col" class="type-small"><span class="big-type">Default</span>
+                                <select size="1" aria-label="View Permit Types">
+                                    <option value="" selected="selected" class="view-types">Types</option>
+                                    <option value="/collections/all">Default</option>
+                                    <option value="/blogs/five-simple-steps-blog">Permits</option>
+                                    <option value="/pages/about-us">Envelope</option>
+                                    <option value="/pages/support">Statuses</option>
+                                    <option value="/pages/support">Approved</option>
+                                </select>
 
-                                <option value="/collections/all">Default</option>
-                                <option value="/blogs/five-simple-steps-blog">Permits</option>
-                                <option value="/pages/about-us">Envelope</option>
-                                <option value="/pages/support">Statuses</option>
-                                <option value="/pages/support">Approved</option>
-                            </select>
+                            </th>
+                            <th scope="col" class="type">Permits</th>
+                            <th scope="col" class="type">Envelopes</th>
+                            <th scope="col" class="type">Statuses</th>
+                            <th scope="col" class="type">Approved</th>
+                            <th scope="col" class="operations">Operations</th>
+                            <th scope="col">&nbsp;</th>
+                            <th scope="col"><span class="th-position">Position</span></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
 
-                        </th>
-                        <th scope="col" class="type">Permits</th>
-                        <th scope="col" class="type">Envelopes</th>
-                        <th scope="col" class="type">Statuses</th>
-                        <th scope="col" class="type">Approved</th>
-                        <th scope="col" class="operations">Operations</th>
-                        <th scope="col">&nbsp;</th>
-                        <th scope="col"><span class="th-position">Position</span></th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
+                            <td><a href="#" class="tabledrag-handle " title="Drag to re-order">
+                                    <div class="handle"><img src="img/draggable-blue.png" class="drag-blue" />
+                                    </div>
+                            </td>
 
-                        <td><a href="#" class="tabledrag-handle " title="Drag to re-order">
-                                <div class="handle"><img src="img/draggable-blue.png" class="drag-blue" />
-                                </div>
-                        </td>
+                            <td class="q-name"><a href="edit.html">Approved</a></td>
+                            <td></td>
+                            <td class="big-permits"></td>
+                            <td class="big-permits"></td>
+                            <td class="dot big-permits"><img src="img/icons8-new-moon-24.png" class="dot"
+                                    alt="Affirmative dot icon" />
+                            </td>
+                            <td class="big-permits"></td>
+                            <td><a href="edit.html" class="edit-big">Edit</a><a href="edit.html" class="edit-small"><img
+                                        src="img/icons8-edit-50.png" alt="Edit" class="edit" /></a>
+                                <a href="#" class="remove-small"><img src="img/icons8-delete-48.png" alt="Remove"
+                                        class="delete" /></a>
+                            </td>
+                            <td><a href="#" class="remove-big">Remove</a></td>
+                            <th scope="row" class="position">1</th>
+                        </tr>
+                        <tr>
+                            <td><a href="#" class="tabledrag-handle " title="Drag to re-order">
+                                    <div class="handle"><img src="img/draggable-blue.png" class="drag-blue" />
+                                    </div>
+                                </a>
+                            </td>
 
-                        <td class="q-name">Approved</td>
-                        <td></td>
-                        <td class="big-permits"></td>
-                        <td class="big-permits"></td>
-                        <td class="dot big-permits"><img src="img/icons8-new-moon-24.png" class="dot"
-                                alt="Affirmative dot icon" />
-                        </td>
-                        <td class="big-permits"></td>
-                        <td><a href="#" class="edit-small"><img src="img/icons8-edit-50.png" alt="Edit"
-                                    class="edit" /></a>
-                            <a href="#" class="remove-small"><img src="img/icons8-delete-48.png" alt="Remove"
-                                    class="delete" /></a>
-                        </td>
-                        <td></td>
-                        <th scope="row" class="position">1</th>
-                    </tr>
-                    <tr>
-                        <td><a href="#" class="tabledrag-handle " title="Drag to re-order">
-                                <div class="handle"><img src="img/draggable-blue.png" class="drag-blue" />
-                                </div>
-                            </a>
-                        </td>
-
-                        <td class="q-name">Amend Requests</td>
-                        <td></td>
-                        <td class="big-permits"></td>
-                        <td class="big-permits"></td>
-                        <td class="dot big-permits"><img src="img/icons8-new-moon-24.png" class="dot"
-                                alt="Affirmative dot icon" />
-                        </td>
-                        <td class="dot big-permits"><img src="img/icons8-new-moon-24.png" class="dot"
-                                alt="Affirmative dot icon" />
-                        </td>
-                        <td><a href="#" class="edit-big">Edit</a><a href="#" class="edit-small"><img
-                                    src="img/icons8-edit-50.png" alt="Edit" class="edit" /></a>
-                            <a href="#" class="remove-small"><img src="img/icons8-delete-48.png" alt="Remove"
-                                    class="delete" /></a>
-                        </td>
-                        <td><a href="#" class="remove-big">Remove</a></td>
-                        <th scope="row" class="position">2</th>
-                    </tr>
-                    <tr>
-                        <td><a href="#" class="tabledrag-handle " title="Drag to re-order">
-                                <div class="handle"><img src="img/draggable-blue.png" class="drag-blue" />
-                                </div>
-                        </td>
-                        <td class="q-name">PO Pending Payment</td>
-                        <td></td>
-                        <td class="big-permits"></td>
-                        <td class="big-permits"></td>
-                        <td class="dot big-permits"><img src="img/icons8-new-moon-24.png" class="dot"
-                                alt="Affirmative dot icon" />
-                        </td>
-                        <td class="big-permits"></td>
-                        <td><a href="#" class="edit-big">Edit</a><a href="#" class="edit-small"><img
-                                    src="img/icons8-edit-50.png" alt="Edit" class="edit" /></a>
-                            <a href="#" class="remove-small"><img src="img/icons8-delete-48.png" alt="Remove"
-                                    class="delete" /></a>
-                        </td>
-                        <td><a href="#" class="remove-big">Remove</a></td>
-                        <th scope="row" class="position">3</th>
-                    </tr>
-                    <tr>
-                        <td><a href="#" class="tabledrag-handle " title="Drag to re-order">
-                                <div class="handle"><img src="img/draggable-blue.png" class="drag-blue" />
-                                </div>
-                        </td>
-                        <td class="q-name">Customer Pending Payment</td>
-                        <td></td>
-                        <td class="big-permits"></td>
-                        <td class="big-permits"></td>
-                        <td class="dot big-permits"><img src="img/icons8-new-moon-24.png" class="dot"
-                                alt="Affirmative dot icon" />
-                        </td>
-                        <td class="big-permits"></td>
-                        <td><a href="#" class="edit-big">Edit</a><a href="#" class="edit-small"><img
-                                    src="img/icons8-edit-50.png" alt="Edit" class="edit" /></a>
-                            <a href="#" class="remove-small"><img src="img/icons8-delete-48.png" alt="Remove"
-                                    class="delete" /></a>
-                        </td>
-                        <td><a href="#" class="remove-big">Remove</a></td>
-                        <th scope="row" class="position">4</th>
-                    </tr>
-                    <tr>
-                        <td><a href="#" class="tabledrag-handle " title="Drag to re-order">
-                                <div class="handle"><img src="img/draggable-blue.png" class="drag-blue" />
-                                </div>
-                        </td>
-                        <td class="q-name">Internal Pending</td>
-                        <td></td>
-                        <td class="big-permits"></td>
-                        <td class="big-permits"></td>
-                        <td class="dot big-permits"><img src="img/icons8-new-moon-24.png" class="dot"
-                                alt="Affirmative dot icon" />
-                        </td>
-                        <td class="big-permits"></td>
-                        <td><a href="#" class="edit-big">Edit</a><a href="#" class="edit-small"><img
-                                    src="img/icons8-edit-50.png" alt="Edit" class="edit" /></a>
-                            <a href="#" class="remove-small"><img src="img/icons8-delete-48.png" alt="Remove"
-                                    class="delete" /></a>
-                        </td>
-                        <td><a href="#" class="remove-big">Remove</a></td>
-                        <th scope="row" class="position">5</th>
-                    </tr>
-                    <tr>
-                        <td><a href="#" class="tabledrag-handle " title="Drag to re-order">
-                                <div class="handle"><img src="img/draggable-blue.png" class="drag-blue" />
-                                </div>
-                        </td>
-                        <td class="q-name">Bridge Study Passed/Failed</td>
-                        <td></td>
-                        <td class="big-permits"></td>
-                        <td class="big-permits"></td>
-                        <td class="dot big-permits"><img src="img/icons8-new-moon-24.png" class="dot"
-                                alt="Affirmative dot icon" />
-                        </td>
-                        <td class="big-permits"></td>
-                        <td><a href="#" class="edit-big">Edit</a><a href="#" class="edit-small"><img
-                                    src="img/icons8-edit-50.png" alt="Edit" class="edit" /></a>
-                            <a href="#" class="remove-small"><img src="img/icons8-delete-48.png" alt="Remove"
-                                    class="delete" /></a>
-                        </td>
-                        <td><a href="#" class="remove-big">Remove</a></td>
-                        <th scope="row" class="position">6</th>
-                    </tr>
-                    <tr>
-                        <td><a href="#" class="tabledrag-handle " title="Drag to re-order">
-                                <div class="handle"><img src="img/draggable-blue.png" class="drag-blue" />
-                                </div>
-                        </td>
-                        <td class="q-name">Bridge Analysis Running</td>
-                        <td></td>
-                        <td class="big-permits"></td>
-                        <td class="big-permits"></td>
-                        <td class="dot big-permits"><img src="img/icons8-new-moon-24.png" class="dot"
-                                alt="Affirmative dot icon" />
-                        </td>
-                        <td class="big-permits"></td>
-                        <td><a href="#" class="edit-big">Edit</a><a href="#" class="edit-small"><img
-                                    src="img/icons8-edit-50.png" alt="Edit" class="edit" /></a>
-                            <a href="#" class="remove-small"><img src="img/icons8-delete-48.png" alt="Remove"
-                                    class="delete" /></a>
-                        </td>
-                        <td><a href="#" class="remove-big">Remove</a></td>
-                        <th scope="row" class="position">7</th>
-                    </tr>
-                    <tr>
-                        <td><a href="#" class="tabledrag-handle " title="Drag to re-order">
-                                <div class="handle"><img src="img/draggable-blue.png" class="drag-blue" />
-                                </div>
-                        </td>
-                        <td class="q-name">Bridge Office Reviewing</td>
-                        <td></td>
-                        <td class="big-permits"></td>
-                        <td class="big-permits"></td>
-                        <td class="dot big-permits"><img src="img/icons8-new-moon-24.png" class="dot"
-                                alt="Affirmative dot icon" />
-                        </td>
-                        <td class="big-permits"></td>
-                        <td><a href="#" class="edit-big">Edit</a><a href="#" class="edit-small"><img
-                                    src="img/icons8-edit-50.png" alt="Edit" class="edit" /></a>
-                            <a href="#" class="remove-small"><img src="img/icons8-delete-48.png" alt="Remove"
-                                    class="delete" /></a>
-                        </td>
-                        <td><a href="#" class="remove-big">Remove</a></td>
-                        <th scope="row" class="position">8</th>
-                    </tr>
-                    <tr>
-                        <td><a href="#" class="tabledrag-handle " title="Drag to re-order">
-                                <div class="handle"><img src="img/draggable-blue.png" class="drag-blue" />
-                                </div>
-                        </td>
-                        <td class="q-name">Waiting on Customer Response</td>
-                        <td></td>
-                        <td class="big-permits"></td>
-                        <td class="big-permits"></td>
-                        <td class="big-permits dot"><img src="img/icons8-new-moon-24.png" class="dot"
-                                alt="Affirmative dot icon" />
-                        </td>
-                        <td class="big-permits"></td>
-                        <td><a href="#" class="edit-big">Edit</a><a href="#" class="edit-small"><img
-                                    src="img/icons8-edit-50.png" alt="Edit" class="edit" /></a>
-                            <a href="#" class="remove-small"><img src="img/icons8-delete-48.png" alt="Remove"
-                                    class="delete" /></a>
-                        </td>
-                        <td><a href="#" class="remove-big">Remove</a></td>
-                        <th scope="row" class="position">9</th>
-                    </tr>
-                    <tr>
-                        <td><a href="#" class="tabledrag-handle " title="Drag to re-order">
-                                <div class="handle"><img src="img/draggable-blue.png" class="drag-blue" />
-                                </div>
-                        </td>
-                        <td class="q-name">Route Survey Pending</td>
-                        <td></td>
-                        <td class="big-permits"></td>
-                        <td class="big-permits"></td>
-                        <td class="big-permits dot"><img src="img/icons8-new-moon-24.png" class="dot"
-                                alt="Affirmative dot icon" />
-                        </td>
-                        <td class="big-permits"></td>
-                        <td><a href="#" class="edit-big">Edit</a><a href="#" class="edit-small"><img
-                                    src="img/icons8-edit-50.png" alt="Edit" class="edit" /></a>
-                            <a href="#" class="remove-small"><img src="img/icons8-delete-48.png" alt="Remove"
-                                    class="delete" /></a>
-                        </td>
-                        <td><a href="#" class="remove-big">Remove</a></td>
-                        <th scope="row" class="position">10</th>
-                    </tr>
-                    <tr>
-                        <td><a href="#" class="tabledrag-handle " title="Drag to re-order">
-                                <div class="handle"><img src="img/draggable-blue.png" class="drag-blue" />
-                                </div>
-                        </td>
-                        <td class="q-name">Emergency Permits</td>
-                        <td></td>
-                        <td class="big-permits dot"><img src="img/icons8-new-moon-24.png" class="dot"
-                                alt="Affirmative dot icon" />
-                        </td>
-                        <td class="big-permits"></td>
-                        <td class="big-permits"></td>
-                        <td class="big-permits"></td>
-                        <td><a href="#" class="edit-big">Edit</a><a href="#" class="edit-small"><img
-                                    src="img/icons8-edit-50.png" alt="Edit" class="edit" /></a>
-                            <a href="#" class="remove-small"><img src="img/icons8-delete-48.png" alt="Remove"
-                                    class="delete" /></a>
-                        </td>
-                        <td><a href="#" class="remove-big">Remove</a></td>
-                        <th scope="row" class="position">11</th>
-                    </tr>
-                    <tr>
-                        <td><a href="#" class="tabledrag-handle " title="Drag to re-order">
-                                <div class="handle"><img src="img/draggable-blue.png" class="drag-blue" />
-                                </div>
-                        </td>
-                        <td class="q-name">Superload</td>
-                        <td></td>
-                        <td class="big-permits"></td>
-                        <td class="big-permits dot"><img src="img/icons8-new-moon-24.png" class="dot"
-                                alt="Affirmative dot icon" />
-                        </td>
-                        <td class="big-permits dot"><img src="img/icons8-new-moon-24.png" class="dot"
-                                alt="Affirmative dot icon" />
-                        </td>
-                        <td class="big-permits"></td>
-                        <td><a href="#" class="edit-big">Edit</a><a href="#" class="edit-small"><img
-                                    src="img/icons8-edit-50.png" alt="Edit" class="edit" /></a>
-                            <a href="#" class="remove-small"><img src="img/icons8-delete-48.png" alt="Remove"
-                                    class="delete" /></a>
-                        </td>
-                        <td><a href="#" class="remove-big">Remove</a></td>
-                        <th scope="row" class="position">12</th>
-                    </tr>
-                    <tr>
-                        <td><a href="#" class="tabledrag-handle " title="Drag to re-order">
-                                <div class="handle"><img src="img/draggable-blue.png" class="drag-blue" />
-                                </div>
-                        </td>
-                        <td class="q-name">Routine</td>
-                        <td></td>
-                        <td class="big-permits"></td>
-                        <td class="big-permits dot"><img src="img/icons8-new-moon-24.png" class="dot"
-                                alt="Affirmative dot icon" />
-                        </td>
-                        <td class="big-permits dot"><img src="img/icons8-new-moon-24.png" class="dot"
-                                alt="Affirmative dot icon" />
-                        </td>
-                        <td class="big-permits"></td>
-                        <td><a href="#" class="edit-big">Edit</a><a href="#" class="edit-small"><img
-                                    src="img/icons8-edit-50.png" alt="Edit" class="edit" /></a>
-                            <a href="#" class="remove-small"><img src="img/icons8-delete-48.png" alt="Remove"
-                                    class="delete" /></a>
-                        </td>
-                        <td><a href="#" class="remove-big">Remove</a></td>
-                        <th scope="row" class="position">13</th>
-                    </tr>
-                    <tr>
-                        <td><a href="#" class="tabledrag-handle " title="Drag to re-order">
-                                <div class="handle"><img src="img/draggable-blue.png" class="drag-blue" />
-                                </div>
-                        </td>
-                        <td class="q-name">Problem Queue</td>
-                        <td></td>
-                        <td class="big-permits"></td>
-                        <td class="big-permits"></td>
-                        <td class="big-permits"></td>
-                        <td class="big-permits"></td>
-                        <td><a href="#" class="edit-big">Edit</a><a href="#" class="edit-small"><img
-                                    src="img/icons8-edit-50.png" alt="Edit" class="edit" /></a>
-                            <a href="#" class="remove-small"><img src="img/icons8-delete-48.png" alt="Remove"
-                                    class="delete" /></a>
-                        </td>
-                        <td><a href="#" class="remove-big">Remove</a></td>
-                        <th scope="row" class="position">14</th>
-                    </tr>
-                    <tr>
-                        <td><a href="#" class="tabledrag-handle " title="Drag to re-order">
-                                <div class="handle"><img src="img/draggable-blue.png" class="drag-blue" />
-                                </div>
-                        </td>
-                        <td class="q-name">WIP</td>
-                        <td><img src="img/icons8-new-moon-24.png" class="dot mobile-default"
-                                alt="Affirmative dot icon" /></td>
-                        <td class="big-permits"></td>
-                        <td class="big-permits"></td>
-                        <td class="big-permits"></td>
-                        <td class="big-permits"></td>
-                        <td><a href="#" class="edit-big">Edit</a><a href="#" class="edit-small"><img
-                                    src="img/icons8-edit-50.png" alt="Edit" class="edit" /></a>
-                            <a href="#" class="remove-small"><img src="img/icons8-delete-48.png" alt="Remove"
-                                    class="delete" /></a>
-                        </td>
-                        <td><a href="#" class="remove-big">Remove</a></td>
-                        <th scope="row" class="position">15</th>
-                    </tr>
-                </tbody>
-            </table>
-        </div><button type="button" class="btn btn-success">Add Queue</button> <button type="button"
-            class="btn btn-secondary">Exit</button><br /><br />
-        </div>
+                            <td class="q-name"><a href="edit.html">Amend Requests</a></td>
+                            <td></td>
+                            <td class="big-permits"></td>
+                            <td class="big-permits"></td>
+                            <td class="dot big-permits"><img src="img/icons8-new-moon-24.png" class="dot"
+                                    alt="Affirmative dot icon" />
+                            </td>
+                            <td class="dot big-permits"><img src="img/icons8-new-moon-24.png" class="dot"
+                                    alt="Affirmative dot icon" />
+                            </td>
+                            <td><a href="edit.html" class="edit-big">Edit</a><a href="edit.html" class="edit-small"><img
+                                        src="img/icons8-edit-50.png" alt="Edit" class="edit" /></a>
+                                <a href="#" class="remove-small"><img src="img/icons8-delete-48.png" alt="Remove"
+                                        class="delete" /></a>
+                            </td>
+                            <td><a href="#" class="remove-big">Remove</a></td>
+                            <th scope="row" class="position">2</th>
+                        </tr>
+                        <tr>
+                            <td><a href="#" class="tabledrag-handle " title="Drag to re-order">
+                                    <div class="handle"><img src="img/draggable-blue.png" class="drag-blue" />
+                                    </div>
+                            </td>
+                            <td class="q-name"><a href="edit.html">PO Pending Payment</a></td>
+                            <td></td>
+                            <td class="big-permits"></td>
+                            <td class="big-permits"></td>
+                            <td class="dot big-permits"><img src="img/icons8-new-moon-24.png" class="dot"
+                                    alt="Affirmative dot icon" />
+                            </td>
+                            <td class="big-permits"></td>
+                            <td><a href="edit.html" class="edit-big">Edit</a><a href="edit.html" class="edit-small"><img
+                                        src="img/icons8-edit-50.png" alt="Edit" class="edit" /></a>
+                                <a href="#" class="remove-small"><img src="img/icons8-delete-48.png" alt="Remove"
+                                        class="delete" /></a>
+                            </td>
+                            <td><a href="#" class="remove-big">Remove</a></td>
+                            <th scope="row" class="position">3</th>
+                        </tr>
+                        <tr>
+                            <td><a href="#" class="tabledrag-handle " title="Drag to re-order">
+                                    <div class="handle"><img src="img/draggable-blue.png" class="drag-blue" />
+                                    </div>
+                            </td>
+                            <td class="q-name"><a href="edit.html">Customer Pending Payment</a></td>
+                            <td></td>
+                            <td class="big-permits"></td>
+                            <td class="big-permits"></td>
+                            <td class="dot big-permits"><img src="img/icons8-new-moon-24.png" class="dot"
+                                    alt="Affirmative dot icon" />
+                            </td>
+                            <td class="big-permits"></td>
+                            <td><a href="edit.html" class="edit-big">Edit</a><a href="edit.html" class="edit-small"><img
+                                        src="img/icons8-edit-50.png" alt="Edit" class="edit" /></a>
+                                <a href="#" class="remove-small"><img src="img/icons8-delete-48.png" alt="Remove"
+                                        class="delete" /></a>
+                            </td>
+                            <td><a href="#" class="remove-big">Remove</a></td>
+                            <th scope="row" class="position">4</th>
+                        </tr>
+                        <tr>
+                            <td><a href="#" class="tabledrag-handle " title="Drag to re-order">
+                                    <div class="handle"><img src="img/draggable-blue.png" class="drag-blue" />
+                                    </div>
+                            </td>
+                            <td class="q-name"><a href="edit.html">Internal Pending</a></td>
+                            <td></td>
+                            <td class="big-permits"></td>
+                            <td class="big-permits"></td>
+                            <td class="dot big-permits"><img src="img/icons8-new-moon-24.png" class="dot"
+                                    alt="Affirmative dot icon" />
+                            </td>
+                            <td class="big-permits"></td>
+                            <td><a href="edit.html" class="edit-big">Edit</a><a href="edit.html" class="edit-small"><img
+                                        src="img/icons8-edit-50.png" alt="Edit" class="edit" /></a>
+                                <a href="#" class="remove-small"><img src="img/icons8-delete-48.png" alt="Remove"
+                                        class="delete" /></a>
+                            </td>
+                            <td><a href="#" class="remove-big">Remove</a></td>
+                            <th scope="row" class="position">5</th>
+                        </tr>
+                        <tr>
+                            <td><a href="#" class="tabledrag-handle " title="Drag to re-order">
+                                    <div class="handle"><img src="img/draggable-blue.png" class="drag-blue" />
+                                    </div>
+                            </td>
+                            <td class="q-name"><a href="edit.html">Bridge Study Passed/Failed</a></td>
+                            <td></td>
+                            <td class="big-permits"></td>
+                            <td class="big-permits"></td>
+                            <td class="dot big-permits"><img src="img/icons8-new-moon-24.png" class="dot"
+                                    alt="Affirmative dot icon" />
+                            </td>
+                            <td class="big-permits"></td>
+                            <td><a href="edit.html" class="edit-big">Edit</a><a href="edit.html" class="edit-small"><img
+                                        src="img/icons8-edit-50.png" alt="Edit" class="edit" /></a>
+                                <a href="#" class="remove-small"><img src="img/icons8-delete-48.png" alt="Remove"
+                                        class="delete" /></a>
+                            </td>
+                            <td><a href="#" class="remove-big">Remove</a></td>
+                            <th scope="row" class="position">6</th>
+                        </tr>
+                        <tr>
+                            <td><a href="#" class="tabledrag-handle " title="Drag to re-order">
+                                    <div class="handle"><img src="img/draggable-blue.png" class="drag-blue" />
+                                    </div>
+                            </td>
+                            <td class="q-name"><a href="edit.html">Bridge Analysis Running</a></td>
+                            <td></td>
+                            <td class="big-permits"></td>
+                            <td class="big-permits"></td>
+                            <td class="dot big-permits"><img src="img/icons8-new-moon-24.png" class="dot"
+                                    alt="Affirmative dot icon" />
+                            </td>
+                            <td class="big-permits"></td>
+                            <td><a href="edit.html" class="edit-big">Edit</a><a href="edit.html" class="edit-small"><img
+                                        src="img/icons8-edit-50.png" alt="Edit" class="edit" /></a>
+                                <a href="#" class="remove-small"><img src="img/icons8-delete-48.png" alt="Remove"
+                                        class="delete" /></a>
+                            </td>
+                            <td><a href="#" class="remove-big">Remove</a></td>
+                            <th scope="row" class="position">7</th>
+                        </tr>
+                        <tr>
+                            <td><a href="#" class="tabledrag-handle " title="Drag to re-order">
+                                    <div class="handle"><img src="img/draggable-blue.png" class="drag-blue" />
+                                    </div>
+                            </td>
+                            <td class="q-name"><a href="edit.html">Bridge Office Reviewing</a></td>
+                            <td></td>
+                            <td class="big-permits"></td>
+                            <td class="big-permits"></td>
+                            <td class="dot big-permits"><img src="img/icons8-new-moon-24.png" class="dot"
+                                    alt="Affirmative dot icon" />
+                            </td>
+                            <td class="big-permits"></td>
+                            <td><a href="edit.html" class="edit-big">Edit</a><a href="edit.html" class="edit-small"><img
+                                        src="img/icons8-edit-50.png" alt="Edit" class="edit" /></a>
+                                <a href="#" class="remove-small"><img src="img/icons8-delete-48.png" alt="Remove"
+                                        class="delete" /></a>
+                            </td>
+                            <td><a href="#" class="remove-big">Remove</a></td>
+                            <th scope="row" class="position">8</th>
+                        </tr>
+                        <tr>
+                            <td><a href="#" class="tabledrag-handle " title="Drag to re-order">
+                                    <div class="handle"><img src="img/draggable-blue.png" class="drag-blue" />
+                                    </div>
+                            </td>
+                            <td class="q-name"><a href="edit.html">Waiting on Customer Response</a></td>
+                            <td></td>
+                            <td class="big-permits"></td>
+                            <td class="big-permits"></td>
+                            <td class="big-permits dot"><img src="img/icons8-new-moon-24.png" class="dot"
+                                    alt="Affirmative dot icon" />
+                            </td>
+                            <td class="big-permits"></td>
+                            <td><a href="edit.html" class="edit-big">Edit</a><a href="edit.html" class="edit-small"><img
+                                        src="img/icons8-edit-50.png" alt="Edit" class="edit" /></a>
+                                <a href="#" class="remove-small"><img src="img/icons8-delete-48.png" alt="Remove"
+                                        class="delete" /></a>
+                            </td>
+                            <td><a href="#" class="remove-big">Remove</a></td>
+                            <th scope="row" class="position">9</th>
+                        </tr>
+                        <tr>
+                            <td><a href="#" class="tabledrag-handle " title="Drag to re-order">
+                                    <div class="handle"><img src="img/draggable-blue.png" class="drag-blue" />
+                                    </div>
+                            </td>
+                            <td class="q-name"><a href="edit.html">Route Survey Pending</a></td>
+                            <td></td>
+                            <td class="big-permits"></td>
+                            <td class="big-permits"></td>
+                            <td class="big-permits dot"><img src="img/icons8-new-moon-24.png" class="dot"
+                                    alt="Affirmative dot icon" />
+                            </td>
+                            <td class="big-permits"></td>
+                            <td><a href="edit.html" class="edit-big">Edit</a><a href="edit.html" class="edit-small"><img
+                                        src="img/icons8-edit-50.png" alt="Edit" class="edit" /></a>
+                                <a href="#" class="remove-small"><img src="img/icons8-delete-48.png" alt="Remove"
+                                        class="delete" /></a>
+                            </td>
+                            <td><a href="#" class="remove-big">Remove</a></td>
+                            <th scope="row" class="position">10</th>
+                        </tr>
+                        <tr>
+                            <td><a href="#" class="tabledrag-handle " title="Drag to re-order">
+                                    <div class="handle"><img src="img/draggable-blue.png" class="drag-blue" />
+                                    </div>
+                            </td>
+                            <td class="q-name"><a href="edit.html">Emergency Permits</a></td>
+                            <td></td>
+                            <td class="big-permits dot"><img src="img/icons8-new-moon-24.png" class="dot"
+                                    alt="Affirmative dot icon" />
+                            </td>
+                            <td class="big-permits"></td>
+                            <td class="big-permits"></td>
+                            <td class="big-permits"></td>
+                            <td><a href="edit.html" class="edit-big">Edit</a><a href="edit.html" class="edit-small"><img
+                                        src="img/icons8-edit-50.png" alt="Edit" class="edit" /></a>
+                                <a href="#" class="remove-small"><img src="img/icons8-delete-48.png" alt="Remove"
+                                        class="delete" /></a>
+                            </td>
+                            <td><a href="#" class="remove-big">Remove</a></td>
+                            <th scope="row" class="position">11</th>
+                        </tr>
+                        <tr>
+                            <td><a href="#" class="tabledrag-handle " title="Drag to re-order">
+                                    <div class="handle"><img src="img/draggable-blue.png" class="drag-blue" />
+                                    </div>
+                            </td>
+                            <td class="q-name"><a href="edit.html">Superload</a></td>
+                            <td></td>
+                            <td class="big-permits"></td>
+                            <td class="big-permits dot"><img src="img/icons8-new-moon-24.png" class="dot"
+                                    alt="Affirmative dot icon" />
+                            </td>
+                            <td class="big-permits dot"><img src="img/icons8-new-moon-24.png" class="dot"
+                                    alt="Affirmative dot icon" />
+                            </td>
+                            <td class="big-permits"></td>
+                            <td><a href="edit.html" class="edit-big">Edit</a><a href="edit.html" class="edit-small"><img
+                                        src="img/icons8-edit-50.png" alt="Edit" class="edit" /></a>
+                                <a href="#" class="remove-small"><img src="img/icons8-delete-48.png" alt="Remove"
+                                        class="delete" /></a>
+                            </td>
+                            <td><a href="#" class="remove-big">Remove</a></td>
+                            <th scope="row" class="position">12</th>
+                        </tr>
+                        <tr>
+                            <td><a href="#" class="tabledrag-handle " title="Drag to re-order">
+                                    <div class="handle"><img src="img/draggable-blue.png" class="drag-blue" />
+                                    </div>
+                            </td>
+                            <td class="q-name"><a href="edit.html">Routine</a></td>
+                            <td></td>
+                            <td class="big-permits"></td>
+                            <td class="big-permits dot"><img src="img/icons8-new-moon-24.png" class="dot"
+                                    alt="Affirmative dot icon" />
+                            </td>
+                            <td class="big-permits dot"><img src="img/icons8-new-moon-24.png" class="dot"
+                                    alt="Affirmative dot icon" />
+                            </td>
+                            <td class="big-permits"></td>
+                            <td><a href="edit.html" class="edit-big">Edit</a><a href="edit.html" class="edit-small"><img
+                                        src="img/icons8-edit-50.png" alt="Edit" class="edit" /></a>
+                                <a href="#" class="remove-small"><img src="img/icons8-delete-48.png" alt="Remove"
+                                        class="delete" /></a>
+                            </td>
+                            <td><a href="#" class="remove-big">Remove</a></td>
+                            <th scope="row" class="position">13</th>
+                        </tr>
+                        <tr>
+                            <td><a href="#" class="tabledrag-handle " title="Drag to re-order">
+                                    <div class="handle"><img src="img/draggable-blue.png" class="drag-blue" />
+                                    </div>
+                            </td>
+                            <td class="q-name"><a href="edit.html">Problem Queue</a></td>
+                            <td></td>
+                            <td class="big-permits"></td>
+                            <td class="big-permits"></td>
+                            <td class="big-permits"></td>
+                            <td class="big-permits"></td>
+                            <td><a href="edit.html" class="edit-big">Edit</a><a href="edit.html" class="edit-small"><img
+                                        src="img/icons8-edit-50.png" alt="Edit" class="edit" /></a>
+                                <a href="#" class="remove-small"><img src="img/icons8-delete-48.png" alt="Remove"
+                                        class="delete" /></a>
+                            </td>
+                            <td><a href="#" class="remove-big">Remove</a></td>
+                            <th scope="row" class="position">14</th>
+                        </tr>
+                        <tr>
+                            <td><a href="#" class="tabledrag-handle " title="Drag to re-order">
+                                    <div class="handle"><img src="img/draggable-blue.png" class="drag-blue" />
+                                    </div>
+                            </td>
+                            <td class="q-name"><a href="edit.html">WIP</a></td>
+                            <td><img src="img/icons8-new-moon-24.png" class="dot mobile-default"
+                                    alt="Affirmative dot icon" /></td>
+                            <td class="big-permits"></td>
+                            <td class="big-permits"></td>
+                            <td class="big-permits"></td>
+                            <td class="big-permits"></td>
+                            <td><a href="edit.html" class="edit-big">Edit</a><a href="edit.html" class="edit-small"><img
+                                        src="img/icons8-edit-50.png" alt="Edit" class="edit" /></a>
+                                <a href="#" class="remove-small"><img src="img/icons8-delete-48.png" alt="Remove"
+                                        class="delete" /></a>
+                            </td>
+                            <td><a href="#" class="remove-big">Remove</a></td>
+                            <th scope="row" class="position">15</th>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <button type="button" class="btn btn-success" label="Add Queue">Add Queue</button>
+            <button type="button" class="btn btn-secondary" label="Exit">Exit</button><br /><br />
+        </form>
+    </main>
 
 </body>
 
