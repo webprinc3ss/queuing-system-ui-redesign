@@ -1,7 +1,5 @@
 body {
     font-family: 'Open Sans', sans-serif;
-    /* font-size: 16px; */
-    /* line-height: 1; */
   }
 
 header {
@@ -9,20 +7,12 @@ header {
 }
 
 .navbar {
-    background-color: #007a54;
-  
-    /* padding-top: 0.5rem;
-    padding-right: 1rem;
-    padding-bottom: 0.5rem;
-    padding-left: 1rem; */
-    
+    background-color: #007a54; 
 }
 
 .navbar a {
     color:blanchedalmond;
 }
-
-
 
 h1 {
     font-size: 2.0em;
@@ -38,17 +28,6 @@ h2 {
     text-align:center;
 }
 
-/* .col-form-label {
-    font-size: 16px;
-    font;
-} */
-
-/* .form-inline {
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-  } */
-
 label.col-sm-2.col-form-label {
 color: #007a54;
 font-weight: bold
@@ -58,7 +37,6 @@ legend.col-form-label.col-sm-2.pt-0 {
     color: #007a54;
     font-weight: bold
     }
-
 
 div.col-sm-10 {
     padding-top: 5px;
@@ -79,16 +57,10 @@ th {
     width: 20%;
 }
 
- 
-
-a.remove-big {
-    color: darkred;
-}
 
 .delete {
     height: 20px;
     width: 20px;
-    /* display: none; */
 }
 
 .edit {
@@ -109,12 +81,9 @@ a.remove-big {
 .add {
     display: none;
     height: 24px;
-    /* width: 12px; */
 }
 
 .btn-success {
-    /* height: 100px; */
-    /* margin-top: 5px; */
     width: 100px;
     font-size: 14px;
     background-color: #007a54;
@@ -129,7 +98,32 @@ a.remove-big {
     font-size: 16px;
 }
 
+/* textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {   
+  border-color: rgba(0, 239, 104, 0.8);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(126, 239, 104, 0.6);
+  outline: 0 none;
+} */
 
+.form-control:focus, .form-select:focus {
+    border-color: rgba(0, 239, 104, 0.8);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(126, 239, 104, 0.6);
+    outline: 0 none;
+}
 
 
 @media all and (max-width: 980px) {
@@ -161,7 +155,6 @@ H2 {
     .add {
         display: inline-block;
         height: 24px;
-        /* width: 12px; */
     }
 
     .add-btn {

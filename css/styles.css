@@ -10,21 +10,11 @@ header {
 
 .navbar {
     background-color: #007a54;
-  
-    /* padding-top: 0.5rem;
-    padding-right: 1rem;
-    padding-bottom: 0.5rem;
-    padding-left: 1rem; */
-    
+
 }
 
 .navbar a {
     color:blanchedalmond;
-}
-
-nav.navbar-brand.mb-0 {
-   /* text-align:right;
-   color: #fff; */
 }
 
 h1 {
@@ -41,6 +31,12 @@ h2 {
     text-align:center;
 }
 
+.form-control:focus, .form-select:focus {
+    border-color: rgba(0, 239, 104, 0.8);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(126, 239, 104, 0.6);
+    outline: 0 none;
+}
+
 table.table-hover tbody tr:hover {
     background-color:#FFFFE0;
 }
@@ -49,20 +45,6 @@ table.table-hover tbody tr:hover {
     vertical-align: middle;
     line-height: 20px;
 }
-
-
-
-th {
-    /* text-align: center; */
-}
-
-/* td.drag {
-    background-image: url("img/draggable-blue.png");
-} */
-
-/* td {
-    text-align:center;
-} */
 
 th.position {
     color:#999;
@@ -80,12 +62,6 @@ select {
 
 
 div.handle {
-    /* background-image: url('img/draggable-blue.png') no-repeat 6px 9px; */
-    /* background-image: url("img/arrows-move-grey.svg") no-repeat 6px 9px; */
-    /* height: 13px;
-    /* margin: -0.4em 0.5em; */
-    /* padding: 0.42em 0.5em;  */
-    /* width: 13px; */
     cursor: move;
 }
 
@@ -99,7 +75,6 @@ img.drag-blue {
 img.dot {
     height: 12px;
     width: 12px;
-    /* padding-top: 3px; */
     vertical-align: middle;
 }
 
@@ -133,14 +108,10 @@ H2 {
     font-size: 16px;
 }
 
-    .table thead th {
-    font-size: 16px !important;
-    /* padding:2px */
+ .table thead th {
+font-size: 16px !important;
 }
 
-/* th td td.dot td.position {
-    padding: 0px;
-} */
 
 .table tr td  {
     font-size: 16px !important;
@@ -166,10 +137,6 @@ th {
     padding:2px;
 }
 
-/* .approved {
-   
-} */
-
 th.position   {
     font-size: 16px;
     /* padding:2px; */
@@ -190,7 +157,6 @@ img.drag-blue {
 img.dot {
     height: 8px;
     width: 8px;
-    /* padding-top: 3px; */
     vertical-align: middle;
 }
 
@@ -212,17 +178,9 @@ button.btn.btn-secondary {
     font-size: 16px;
 }
 
-/* th.operations {
-    visibility: hidden;
-} */
-
 th.type {
     display:none;
 }
-
-/* th.type-small {
-    
-} */
 
 td.big-permits {
     display:none;
@@ -231,10 +189,6 @@ td.big-permits {
 .big-type {
     display: none;
 }
-
-/* .mobile-default {
-    text-align:center
-} */
 
 a.edit-big {
     display:none;
@@ -273,15 +227,10 @@ select {
     height: 16px;
     width: 16px;
 }
-
-/* td.position th.th-position {
-    display: none;
-} */
 }
+
 @media all and (max-width: 640px) {
     th.position   {
-        /* font-size: 12px; */
-        /* padding:2px; */
         display: none;
     }
 }
