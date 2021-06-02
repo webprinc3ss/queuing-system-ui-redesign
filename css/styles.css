@@ -31,9 +31,10 @@ h2 {
     text-align:center;
 }
 
-a {
+/* Tried green, but not I think regular blue is more Accessible */
+/* a {
     color: #015F42;
-}
+} */
 
 .form-control:focus, .form-select:focus {
     border-color: rgba(0, 239, 104, 0.8);
