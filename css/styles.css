@@ -31,6 +31,10 @@ h2 {
     text-align:center;
 }
 
+a {
+    color: #007a54;
+}
+
 .form-control:focus, .form-select:focus {
     border-color: rgba(0, 239, 104, 0.8);
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(126, 239, 104, 0.6);
@@ -103,6 +107,8 @@ H1 {
 H2 {
     font-size: 18px;
 }
+
+
 
 .log-out {
     font-size: 16px;
