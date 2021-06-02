@@ -28,14 +28,25 @@
                     <tr>
                         <th scope="col">&nbsp;</th>
                         <th scope="col">Queue Name</th>
-                        <th scope="col" class="type-small"><span class="big-type">Default</span></th>
+                        <th scope="col" class="type-small"><span class="big-type">Default</span>
+                            <select>
+                                <option value="" selected="selected" class="view-types">Default</option>
+
+                                <!-- <option value="/collections/all">Default</option> -->
+                                <option value="/blogs/five-simple-steps-blog">Permits</option>
+                                <option value="/pages/about-us">Envelope</option>
+                                <option value="/pages/support">Statuses</option>
+                                <option value="/pages/support">Approved</option>
+                            </select>
+
+                        </th>
                         <th scope="col" class="type">Permits</th>
                         <th scope="col" class="type">Envelopes</th>
                         <th scope="col" class="type">Statuses</th>
                         <th scope="col" class="type">Approved</th>
                         <th scope="col" class="operations">Operations</th>
                         <th scope="col">&nbsp;</th>
-                        <th scope="col" class="th-position">Position</th>
+                        <th scope="col"><span class="th-position">Position</span></th>
                     </tr>
                 </thead>
                 <tbody>
@@ -48,11 +59,12 @@
 
                         <td class="q-name">Approved</td>
                         <td></td>
-                        <td></td>
-                        <td></td>
-                        <td class="dot"><img src="img/icons8-new-moon-24.png" class="dot" alt="Affirmative dot icon" />
+                        <td class="big-permits"></td>
+                        <td class="big-permits"></td>
+                        <td class="dot big-permits"><img src="img/icons8-new-moon-24.png" class="dot"
+                                alt="Affirmative dot icon" />
                         </td>
-                        <td></td>
+                        <td class="big-permits"></td>
                         <td><a href="#" class="edit-small"><img src="img/icons8-edit-50.png" alt="Edit"
                                     class="edit" /></a>
                             <a href="#" class="remove-small"><img src="img/icons8-delete-48.png" alt="Remove"
@@ -70,11 +82,13 @@
 
                         <td class="q-name">Amend Requests</td>
                         <td></td>
-                        <td></td>
-                        <td></td>
-                        <td class="dot"><img src="img/icons8-new-moon-24.png" class="dot" alt="Affirmative dot icon" />
+                        <td class="big-permits"></td>
+                        <td class="big-permits"></td>
+                        <td class="dot big-permits"><img src="img/icons8-new-moon-24.png" class="dot"
+                                alt="Affirmative dot icon" />
                         </td>
-                        <td class="dot"><img src="img/icons8-new-moon-24.png" class="dot" alt="Affirmative dot icon" />
+                        <td class="dot big-permits"><img src="img/icons8-new-moon-24.png" class="dot"
+                                alt="Affirmative dot icon" />
                         </td>
                         <td><a href="#" class="edit-big">Edit</a><a href="#" class="edit-small"><img
                                     src="img/icons8-edit-50.png" alt="Edit" class="edit" /></a>
@@ -91,11 +105,12 @@
                         </td>
                         <td class="q-name">PO Pending Payment</td>
                         <td></td>
-                        <td></td>
-                        <td></td>
-                        <td class="dot"><img src="img/icons8-new-moon-24.png" class="dot" alt="Affirmative dot icon" />
+                        <td class="big-permits"></td>
+                        <td class="big-permits"></td>
+                        <td class="dot big-permits"><img src="img/icons8-new-moon-24.png" class="dot"
+                                alt="Affirmative dot icon" />
                         </td>
-                        <td></td>
+                        <td class="big-permits"></td>
                         <td><a href="#" class="edit-big">Edit</a><a href="#" class="edit-small"><img
                                     src="img/icons8-edit-50.png" alt="Edit" class="edit" /></a>
                             <a href="#" class="remove-small"><img src="img/icons8-delete-48.png" alt="Remove"
@@ -111,11 +126,12 @@
                         </td>
                         <td class="q-name">Customer Pending Payment</td>
                         <td></td>
-                        <td></td>
-                        <td></td>
-                        <td class="dot"><img src="img/icons8-new-moon-24.png" class="dot" alt="Affirmative dot icon" />
+                        <td class="big-permits"></td>
+                        <td class="big-permits"></td>
+                        <td class="dot big-permits"><img src="img/icons8-new-moon-24.png" class="dot"
+                                alt="Affirmative dot icon" />
                         </td>
-                        <td></td>
+                        <td class="big-permits"></td>
                         <td><a href="#" class="edit-big">Edit</a><a href="#" class="edit-small"><img
                                     src="img/icons8-edit-50.png" alt="Edit" class="edit" /></a>
                             <a href="#" class="remove-small"><img src="img/icons8-delete-48.png" alt="Remove"
@@ -131,11 +147,12 @@
                         </td>
                         <td class="q-name">Internal Pending</td>
                         <td></td>
-                        <td></td>
-                        <td></td>
-                        <td class="dot"><img src="img/icons8-new-moon-24.png" class="dot" alt="Affirmative dot icon" />
+                        <td class="big-permits"></td>
+                        <td class="big-permits"></td>
+                        <td class="dot big-permits"><img src="img/icons8-new-moon-24.png" class="dot"
+                                alt="Affirmative dot icon" />
                         </td>
-                        <td></td>
+                        <td class="big-permits"></td>
                         <td><a href="#" class="edit-big">Edit</a><a href="#" class="edit-small"><img
                                     src="img/icons8-edit-50.png" alt="Edit" class="edit" /></a>
                             <a href="#" class="remove-small"><img src="img/icons8-delete-48.png" alt="Remove"
@@ -151,11 +168,12 @@
                         </td>
                         <td class="q-name">Bridge Study Passed/Failed</td>
                         <td></td>
-                        <td></td>
-                        <td></td>
-                        <td class="dot"><img src="img/icons8-new-moon-24.png" class="dot" alt="Affirmative dot icon" />
+                        <td class="big-permits"></td>
+                        <td class="big-permits"></td>
+                        <td class="dot big-permits"><img src="img/icons8-new-moon-24.png" class="dot"
+                                alt="Affirmative dot icon" />
                         </td>
-                        <td></td>
+                        <td class="big-permits"></td>
                         <td><a href="#" class="edit-big">Edit</a><a href="#" class="edit-small"><img
                                     src="img/icons8-edit-50.png" alt="Edit" class="edit" /></a>
                             <a href="#" class="remove-small"><img src="img/icons8-delete-48.png" alt="Remove"
@@ -171,11 +189,12 @@
                         </td>
                         <td class="q-name">Bridge Analysis Running</td>
                         <td></td>
-                        <td></td>
-                        <td></td>
-                        <td class="dot"><img src="img/icons8-new-moon-24.png" class="dot" alt="Affirmative dot icon" />
+                        <td class="big-permits"></td>
+                        <td class="big-permits"></td>
+                        <td class="dot big-permits"><img src="img/icons8-new-moon-24.png" class="dot"
+                                alt="Affirmative dot icon" />
                         </td>
-                        <td></td>
+                        <td class="big-permits"></td>
                         <td><a href="#" class="edit-big">Edit</a><a href="#" class="edit-small"><img
                                     src="img/icons8-edit-50.png" alt="Edit" class="edit" /></a>
                             <a href="#" class="remove-small"><img src="img/icons8-delete-48.png" alt="Remove"
@@ -191,11 +210,12 @@
                         </td>
                         <td class="q-name">Bridge Office Reviewing</td>
                         <td></td>
-                        <td></td>
-                        <td></td>
-                        <td class="dot"><img src="img/icons8-new-moon-24.png" class="dot" alt="Affirmative dot icon" />
+                        <td class="big-permits"></td>
+                        <td class="big-permits"></td>
+                        <td class="dot big-permits"><img src="img/icons8-new-moon-24.png" class="dot"
+                                alt="Affirmative dot icon" />
                         </td>
-                        <td></td>
+                        <td class="big-permits"></td>
                         <td><a href="#" class="edit-big">Edit</a><a href="#" class="edit-small"><img
                                     src="img/icons8-edit-50.png" alt="Edit" class="edit" /></a>
                             <a href="#" class="remove-small"><img src="img/icons8-delete-48.png" alt="Remove"
@@ -211,11 +231,12 @@
                         </td>
                         <td class="q-name">Waiting on Customer Response</td>
                         <td></td>
-                        <td></td>
-                        <td></td>
-                        <td class="dot"><img src="img/icons8-new-moon-24.png" class="dot" alt="Affirmative dot icon" />
+                        <td class="big-permits"></td>
+                        <td class="big-permits"></td>
+                        <td class="big-permits dot"><img src="img/icons8-new-moon-24.png" class="dot"
+                                alt="Affirmative dot icon" />
                         </td>
-                        <td></td>
+                        <td class="big-permits"></td>
                         <td><a href="#" class="edit-big">Edit</a><a href="#" class="edit-small"><img
                                     src="img/icons8-edit-50.png" alt="Edit" class="edit" /></a>
                             <a href="#" class="remove-small"><img src="img/icons8-delete-48.png" alt="Remove"
@@ -231,11 +252,12 @@
                         </td>
                         <td class="q-name">Route Survey Pending</td>
                         <td></td>
-                        <td></td>
-                        <td></td>
-                        <td class="dot"><img src="img/icons8-new-moon-24.png" class="dot" alt="Affirmative dot icon" />
+                        <td class="big-permits"></td>
+                        <td class="big-permits"></td>
+                        <td class="big-permits dot"><img src="img/icons8-new-moon-24.png" class="dot"
+                                alt="Affirmative dot icon" />
                         </td>
-                        <td></td>
+                        <td class="big-permits"></td>
                         <td><a href="#" class="edit-big">Edit</a><a href="#" class="edit-small"><img
                                     src="img/icons8-edit-50.png" alt="Edit" class="edit" /></a>
                             <a href="#" class="remove-small"><img src="img/icons8-delete-48.png" alt="Remove"
@@ -251,11 +273,12 @@
                         </td>
                         <td class="q-name">Emergency Permits</td>
                         <td></td>
-                        <td class="dot"><img src="img/icons8-new-moon-24.png" class="dot" alt="Affirmative dot icon" />
+                        <td class="big-permits dot"><img src="img/icons8-new-moon-24.png" class="dot"
+                                alt="Affirmative dot icon" />
                         </td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
+                        <td class="big-permits"></td>
+                        <td class="big-permits"></td>
+                        <td class="big-permits"></td>
                         <td><a href="#" class="edit-big">Edit</a><a href="#" class="edit-small"><img
                                     src="img/icons8-edit-50.png" alt="Edit" class="edit" /></a>
                             <a href="#" class="remove-small"><img src="img/icons8-delete-48.png" alt="Remove"
@@ -271,12 +294,14 @@
                         </td>
                         <td class="q-name">Superload</td>
                         <td></td>
-                        <td></td>
-                        <td class="dot"><img src="img/icons8-new-moon-24.png" class="dot" alt="Affirmative dot icon" />
+                        <td class="big-permits"></td>
+                        <td class="big-permits dot"><img src="img/icons8-new-moon-24.png" class="dot"
+                                alt="Affirmative dot icon" />
                         </td>
-                        <td class="dot"><img src="img/icons8-new-moon-24.png" class="dot" alt="Affirmative dot icon" />
+                        <td class="big-permits dot"><img src="img/icons8-new-moon-24.png" class="dot"
+                                alt="Affirmative dot icon" />
                         </td>
-                        <td></td>
+                        <td class="big-permits"></td>
                         <td><a href="#" class="edit-big">Edit</a><a href="#" class="edit-small"><img
                                     src="img/icons8-edit-50.png" alt="Edit" class="edit" /></a>
                             <a href="#" class="remove-small"><img src="img/icons8-delete-48.png" alt="Remove"
@@ -292,12 +317,14 @@
                         </td>
                         <td class="q-name">Routine</td>
                         <td></td>
-                        <td></td>
-                        <td class="dot"><img src="img/icons8-new-moon-24.png" class="dot" alt="Affirmative dot icon" />
+                        <td class="big-permits"></td>
+                        <td class="big-permits dot"><img src="img/icons8-new-moon-24.png" class="dot"
+                                alt="Affirmative dot icon" />
                         </td>
-                        <td class="dot"><img src="img/icons8-new-moon-24.png" class="dot" alt="Affirmative dot icon" />
+                        <td class="big-permits dot"><img src="img/icons8-new-moon-24.png" class="dot"
+                                alt="Affirmative dot icon" />
                         </td>
-                        <td></td>
+                        <td class="big-permits"></td>
                         <td><a href="#" class="edit-big">Edit</a><a href="#" class="edit-small"><img
                                     src="img/icons8-edit-50.png" alt="Edit" class="edit" /></a>
                             <a href="#" class="remove-small"><img src="img/icons8-delete-48.png" alt="Remove"
@@ -313,10 +340,10 @@
                         </td>
                         <td class="q-name">Problem Queue</td>
                         <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
+                        <td class="big-permits"></td>
+                        <td class="big-permits"></td>
+                        <td class="big-permits"></td>
+                        <td class="big-permits"></td>
                         <td><a href="#" class="edit-big">Edit</a><a href="#" class="edit-small"><img
                                     src="img/icons8-edit-50.png" alt="Edit" class="edit" /></a>
                             <a href="#" class="remove-small"><img src="img/icons8-delete-48.png" alt="Remove"
@@ -331,11 +358,12 @@
                                 </div>
                         </td>
                         <td class="q-name">WIP</td>
-                        <td><img src="img/icons8-new-moon-24.png" class="dot" alt="Affirmative dot icon" /></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
+                        <td><img src="img/icons8-new-moon-24.png" class="dot mobile-default"
+                                alt="Affirmative dot icon" /></td>
+                        <td class="big-permits"></td>
+                        <td class="big-permits"></td>
+                        <td class="big-permits"></td>
+                        <td class="big-permits"></td>
                         <td><a href="#" class="edit-big">Edit</a><a href="#" class="edit-small"><img
                                     src="img/icons8-edit-50.png" alt="Edit" class="edit" /></a>
                             <a href="#" class="remove-small"><img src="img/icons8-delete-48.png" alt="Remove"

@@ -69,6 +69,15 @@ th.position {
     text-align: right;
 }
 
+th.type-small {
+ 
+    text-align: left;
+}
+
+select {
+    display: none;
+}
+
 
 div.handle {
     /* background-image: url('img/draggable-blue.png') no-repeat 6px 9px; */
@@ -125,7 +134,7 @@ H2 {
 }
 
     .table thead th {
-    font-size: 12px !important;
+    font-size: 14px !important;
     padding:2px
 }
 
@@ -164,11 +173,11 @@ th {
 th.position   {
     font-size: 12px;
     /* padding:2px; */
-    display: none;
+    /* display: none; */
 }
 
-th.th-position {
-    display: none;
+.th-position {
+    display:none;
 }
 
 img.drag-blue {
@@ -203,9 +212,29 @@ button.btn.btn-secondary {
     font-size: 13px;
 }
 
-th.operations {
+/* th.operations {
     visibility: hidden;
+} */
+
+th.type {
+    display:none;
 }
+
+/* th.type-small {
+    
+} */
+
+td.big-permits {
+    display:none;
+}
+
+.big-type {
+    display: none;
+}
+
+/* .mobile-default {
+    text-align:center
+} */
 
 a.edit-big {
     display:none;
@@ -232,6 +261,14 @@ a.remove-small {
 
 }
 
+select {
+    display: inline-block;
+}
+
+.view-types {
+    font-weight: bold;
+}
+
 .delete {
     height: 16px;
     width: 16px;
@@ -240,5 +277,13 @@ a.remove-small {
 /* td.position th.th-position {
     display: none;
 } */
-
 }
+@media all and (max-width: 640px) {
+    th.position   {
+        /* font-size: 12px; */
+        /* padding:2px; */
+        display: none;
+    }
+}
+
+
