@@ -135,7 +135,7 @@ H2 {
 
     .table thead th {
     font-size: 14px !important;
-    padding:2px
+    /* padding:2px */
 }
 
 /* th td td.dot td.position {
@@ -144,8 +144,8 @@ H2 {
 
 .table tr td  {
     font-size: 12px !important;
-    padding-right:2px;
-    padding-left:2px;
+    /* padding-right:2px;
+    padding-left:2px; */
     width:fit-content;
     
 }
