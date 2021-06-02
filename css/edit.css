@@ -92,6 +92,15 @@ th {
     background-color: #007a54;
 }
 
+.button-group {
+    padding: 20px;
+}
+
+.bottom-btn {
+    width: 150px;
+    font-size: 16px;
+}
+
 
 @media all and (max-width: 980px) {
 
