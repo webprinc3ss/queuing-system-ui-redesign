@@ -18,7 +18,7 @@
             <h1>Add/Edit Queue</h1>
             <div class="navbar-brand ml-auto"><a href="#" class="log-out">Log out</a></div>
         </nav>
-        <h2>Build,Edit and Manage Permit Queues</h2>
+        <h2>Manage Permit Queues</h2>
     </header>
     <!-- <form> -->
     <div class="container border">
@@ -93,43 +93,42 @@
                         <thead>
                             <tr>
                                 <th>Permit</th>
-                                <th>Operations</th>
+
+                                <th class="permits"><span class="remove">Remove</span></th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
                                 <td>Boat - blanket</td>
-                                <td><a href="edit.html" class="edit-big">Edit</a> <a href="#"
-                                        class="remove-big">Remove</a>
-
-                                    <a href="edit.html"><img src="img/icons8-edit-50.png" alt="Edit" class="edit" /></a>
-                                    <a href="#"><img src="img/icons8-delete-48.png" alt="Remove" class="delete" /></a>
+                                <td class="permits">
+                                    <a href="#"><img src="img/icons8-delete-64.png" alt="Remove" class="delete" /></a>
                                 </td>
 
                             </tr>
                             <tr>
                                 <td>Another Permit</td>
-                                <td><a href="edit.html" class="edit-big">Edit</a> <a href="#"
-                                        class="remove-big">Remove</a>
-
-                                    <a href="edit.html"><img src="img/icons8-edit-50.png" alt="Edit" class="edit" /></a>
-                                    <a href="#"><img src="img/icons8-delete-48.png" alt="Remove" class="delete" /></a>
-
+                                <td class="permits">
+                                    <a href="#"><img src="img/icons8-delete-64.png" alt="Remove" class="delete" /></a>
+                                </td>
                             </tr>
                             <tr>
                                 <td>Yet Another Permit</td>
-                                <td><a href="edit.html" class="edit-big">Edit</a> <a href="#"
-                                        class="remove-big">Remove</a>
-
-                                    <a href="edit.html"><img src="img/icons8-edit-50.png" alt="Edit" class="edit" /></a>
-                                    <a href="#"><img src="img/icons8-delete-48.png" alt="Remove" class="delete" /></a>
+                                <td class="permits">
+                                    <a href="#"><img src="img/icons8-delete-64.png" alt="Remove" class="delete" /></a>
                                 </td>
                             </tr>
                             <tr>
-                                <td><input type="text" class="form-control" id="permitName" aria-label="permitNamet"
-                                        placeholder="Add Permit">
+                                <td>
+                                    <select size="1" class="form-select" aria-label="Permit Type">
+                                        <option value="#" selected="selected" class="view-types">Boat - blanket</option>
+                                        <option value="#">Another Permit</option>
+                                        <option value="#">Yet Another Permit</option>
+                                    </select>
                                 </td>
-                                <td><button type="button" class="btn btn-success" label="Add Permit">Add Permit</button>
+
+                                <td class="permits"><button type="button" class="btn btn-success add-btn"
+                                        label="addPermit">Add</button><a href="#"><img src="img/icons8-add-48.png"
+                                            alt="Add" class="add" /></a>
                                 </td>
                             </tr>
                         </tbody>
@@ -139,7 +138,6 @@
 
             <div class="form-group row">
                 <label for="viewEnvelopes" class="col-sm-2 col-form-label">Envelopes
-                    <!-- <br /><a href="#">Add permit</a> -->
                 </label>
 
                 <div class="col-sm-10">
@@ -149,7 +147,7 @@
                                 <th>Measurement Type</th>
                                 <th>Minimum</th>
                                 <th>Maximum</th>
-                                <th>Operations</th>
+                                <th class="envelopes"><span class="remove">Remove</span></th>
                             </tr>
                         </thead>
                         <tbody>
@@ -160,17 +158,19 @@
 
 
 
-                                <td><a href="edit.html" class="edit-big">Edit</a> <a href="#"
-                                        class="remove-big">Remove</a>
-
-                                    <a href="edit.html"><img src="img/icons8-edit-50.png" alt="Edit" class="edit" /></a>
-                                    <a href="#"><img src="img/icons8-delete-48.png" alt="Remove" class="delete" /></a>
+                                <td class="envelopes">
+                                    <!-- <a href="#" class="remove-big">Remove</a> -->
+                                    <a href="#"><img src="img/icons8-delete-64.png" alt="Remove" class="delete" /></a>
                                 </td>
-
                             </tr>
                             <tr>
-                                <td><input type="text" class="form-control" id="measurementType"
-                                        placeholder="Measurement Type" aria-label="measurementType">
+                                <td>
+                                    <select size="1" class="form-select" aria-label="Measurement Type">
+                                        <option value="#" selected="selected" class="view-types">Gross Vehicle Weight
+                                        </option>
+                                        <option value="#">Another Measurement</option>
+                                        <option value="#">Yet Measurement</option>
+                                    </select>
                                 </td>
                                 <td><input type="text" class="form-control" id="envelopeMin" placeholder="Minimum"
                                         aria-label="envelopeMin">
@@ -178,10 +178,11 @@
                                 <td><input type="text" class="form-control" id="envelopeMax" placeholder="Maximum"
                                         aria-label="envelopeMax">
                                 </td>
-                                <td><button type="button" class="btn btn-success" label="addEnvelope">Add</button>
+                                <td class="envelopes"><button type="button" class="btn btn-success add-btn"
+                                        label="addEnvelope">Add</button><a href="#"><img src="img/icons8-add-48.png"
+                                            alt="Add" class="add" /></a>
                                 </td>
                             </tr>
-
                         </tbody>
                     </table>
                 </div>
@@ -196,34 +197,35 @@
                         <thead>
                             <tr>
                                 <th>Statuses</th>
-                                <th>Operations</th>
+                                <th class="statuses"><span class="remove">Remove</span></th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
                                 <td>Approved</td>
-                                <td><a href="edit.html" class="edit-big">Edit</a> <a href="#"
-                                        class="remove-big">Remove</a>
-
-                                    <a href="edit.html"><img src="img/icons8-edit-50.png" alt="Edit" class="edit" /></a>
-                                    <a href="#"><img src="img/icons8-delete-48.png" alt="Remove" class="delete" /></a>
+                                <td class="statuses">
+                                    <a href="#"><img src="img/icons8-delete-64.png" alt="Remove" class="delete" /></a>
                                 </td>
 
                             </tr>
                             <tr>
                                 <td>Rejected</td>
-                                <td><a href="edit.html" class="edit-big">Edit</a> <a href="#"
-                                        class="remove-big">Remove</a>
-
-                                    <a href="edit.html"><img src="img/icons8-edit-50.png" alt="Edit" class="edit" /></a>
-                                    <a href="#"><img src="img/icons8-delete-48.png" alt="Remove" class="delete" /></a>
-
+                                <td class="statuses">
+                                    <a href="#"><img src="img/icons8-delete-64.png" alt="Remove" class="delete" /></a>
+                                </td>
                             </tr>
                             <tr>
-                                <td><input type="text" class="form-control" id="statusName" aria-label="statusName"
-                                        placeholder="Add Status">
+                                <td>
+                                    <select size="1" class="form-select" aria-label="Status Type">
+                                        <option value="#" selected="selected" class="view-types">Approved
+                                        </option>
+                                        <option value="#">None</option>
+                                        <option value="#">Rejected</option>
+                                    </select>
                                 </td>
-                                <td><button type="button" class="btn btn-success" label="addStatus">Add Status</button>
+                                <td class="statuses"><button type="button" class="btn btn-success add-btn"
+                                        label="addStatus">Add</button><a href="#"><img src="img/icons8-add-48.png"
+                                            alt="Add" class="add" /></a>
                                 </td>
                             </tr>
                         </tbody>

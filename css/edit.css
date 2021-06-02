@@ -49,6 +49,17 @@ h2 {
     align-items: center;
   } */
 
+label.col-sm-2.col-form-label {
+color: #007a54;
+font-weight: bold
+}
+
+legend.col-form-label.col-sm-2.pt-0 {
+    color: #007a54;
+    font-weight: bold
+    }
+
+
 div.col-sm-10 {
     padding-top: 5px;
     padding-bottom:5px;
@@ -63,10 +74,21 @@ th {
     color: blanchedalmond !important;
 }
 
+.permits, .envelopes, .statuses {
+    text-align: center;
+    width: 20%;
+}
+
+ 
+
+a.remove-big {
+    color: darkred;
+}
+
 .delete {
     height: 20px;
     width: 20px;
-    display: none;
+    /* display: none; */
 }
 
 .edit {
@@ -82,6 +104,12 @@ th {
 
 .view-permits {
     margin-top: 5px;
+}
+
+.add {
+    display: none;
+    height: 24px;
+    /* width: 12px; */
 }
 
 .btn-success {
@@ -102,6 +130,8 @@ th {
 }
 
 
+
+
 @media all and (max-width: 980px) {
 
 H1 {
@@ -119,7 +149,24 @@ H2 {
   
 }
 @media all and (max-width: 640px) {
+ .remove {
+        display:none;
+    }
 
+    .permits, .envelopes, .statuses {
+        width: 5%;
+        vertical-align: middle;
+    }
+
+    .add {
+        display: inline-block;
+        height: 24px;
+        /* width: 12px; */
+    }
+
+    .add-btn {
+        display:none;
+    }
 }
 
 
