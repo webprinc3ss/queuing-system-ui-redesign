@@ -38,6 +38,11 @@ h2 {
     text-align:center;
 }
 
+/* .col-form-label {
+    font-size: 16px;
+    font;
+} */
+
 /* .form-inline {
     display: flex;
     flex-flow: row wrap;
@@ -49,9 +54,30 @@ div.col-sm-10 {
     padding-bottom:5px;
 }
 
+table.table-hover tbody tr:hover {
+    background-color:#FFFFE0;
+}
+
+th {
+    background-color: #007a54 !important;
+    color: blanchedalmond !important;
+}
+
 .delete {
     height: 20px;
     width: 20px;
+    display: none;
+}
+
+.edit {
+    height: 16px;
+    width: 16px;
+    padding-right: 5px;
+    display: none;
+}
+
+.edit-big {
+    margin-right: 5px;
 }
 
 .view-permits {
@@ -60,8 +86,8 @@ div.col-sm-10 {
 
 .btn-success {
     /* height: 100px; */
-    margin-top: 5px;
-    width: 50px;
+    /* margin-top: 5px; */
+    width: 100px;
     font-size: 14px;
     background-color: #007a54;
 }
