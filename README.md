@@ -40,22 +40,22 @@ can be used.
 
 ## User Story
 
-AS A permit officer (USER) who has a list of queues(permit request (s))
+- AS A permit officer (USER) who has a list of queues(permit request (s))
  and uses a webpage to display and manage requests,
-I WANT a table that displays the list of queues with the following 
+- I WANT a table that displays the list of queues with the following 
 items:
-Queue Name
-Permits (indicated if they exist)
-Envelopes (indicated if they exist)
-Status (which status)
-Amend requests (if they exist)
-Edit link
-Remove link
-Priority indicator (which user can interface to change order)
-SO THAT the USER can add/remove/edit/update permit queues.
-EXIT and ADD NEW QUEUE buttons sit at the bottom of the page 
-SO THAT the USER can add/remove/edit/update permit queues.
-IF ADD or EDIT is selected, the USER is taken to a second page
+- Queue Name
+- Permits (indicated if they exist)
+- Envelopes (indicated if they exist)
+- Status (which status)
+- Amend requests (if they exist)
+- Edit link
+- Remove link
+- Priority indicator (which user can interface to change order)
+- SO THAT the USER can add/remove/edit/update permit queues.
+- EXIT and ADD NEW QUEUE buttons sit at the bottom of the page 
+- SO THAT the USER can add/remove/edit/update permit queues.
+- IF ADD or EDIT is selected, the USER is taken to a second page
  (ADD/EDIT page) where data is added or modified
 
 ## Credits/Software
