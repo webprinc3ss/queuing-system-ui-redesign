@@ -32,7 +32,7 @@ can be used.
     - On both pages - included a row hover to help the eye track the row content.
     - Edit page - When a choice is selected from the drop-down menus, another row can appear.  This feature can be added later with JQuery and persistent or back-end data.
     - I recommend form validation for any fields, such as envelopes, which require the User to enter specific types of measurements.
-    - Colors pass https://coolors.co/contrast-checker/
+    - [Cooler Color Checker](https://coolors.co/contrast-checker/) Colors pass 
     - Labels included.
     - Options and links are keyboard-navigable.
     - HTML and CSS optimized for Chrome and MS Edge.
@@ -57,6 +57,27 @@ items:
 - SO THAT the USER can add/remove/edit/update permit queues.
 - IF ADD or EDIT is selected, the USER is taken to a second page
  (ADD/EDIT page) where data is added or modified
+
+## Media
+BEFORE<br>
+![Screenshot](img/old_index.jpg)
+<br>
+![Screenshot](img/old_edit.jpg)
+<br>
+
+AFTER<br>
+![Screenshot](img/index_new_lg.jpg)
+<br>
+![Screenshot](img/index_new_md.jpg)
+<br>
+![Screenshot](img/edit_new.jpg)
+<br>
+
+# Website
+
+[Github Pages](https://github.com/webprinc3ss/queuing-system-ui-redesign)
+
+<br>
 
 ## Credits/Software
 - Bootstrap 5.
