@@ -24,9 +24,40 @@ The deliverable must be in HTML, and can use Javacript, Bootstrap, jQuery, and C
 can be used.
 
 ## Recommendations
+    - Three views with icons used for smaller views on main page.
+    - Drag and drop positioner with the option to toggle between drop-down select menu positioning (can be added as a feature).  I did not include a sample of the drop-down positioner.
+    - Cleaner icon choices.
+    - On the main page, I recommend a JQuery toggle between permit-types (as indicated by the drop-down menu on the mobile view).  This can be added as feature.
+    - Edit page - Incorporated all the fields in to one form for unification.
+    - On both pages - included a row hover to help the eye track the row content.
+    - Edit page - When a choice is selected from the drop-down menus, another row can appear.  This feature can be added later with JQuery and persistent or back-end data.
+    - I recommend form validation for any fields, such as envelopes, which require the User to enter specific types of measurements.
+    - Colors pass https://coolors.co/contrast-checker/
+    - Labels included.
+    - HTML and CSS optimized for Chrome and MS Edge.
+
 
 ## User Story
 
+AS A permit officer (USER) who has a list of queues(permit request (s))
+ and uses a webpage to display and manage requests,
+I WANT a table that displays the list of queues with the following 
+items:
+Queue Name
+Permits (indicated if they exist)
+Envelopes (indicated if they exist)
+Status (which status)
+Amend requests (if they exist)
+Edit link
+Remove link
+Priority indicator (which user can interface to change order)
+SO THAT the USER can add/remove/edit/update permit queues.
+EXIT and ADD NEW QUEUE buttons sit at the bottom of the page 
+SO THAT the USER can add/remove/edit/update permit queues.
+IF ADD or EDIT is selected, the USER is taken to a second page
+ (ADD/EDIT page) where data is added or modified
+
 ## Credits/Software
-- Bootstrap 5.0
-- icons8.com - small blue "drag" and "new-moon" icons. If used professionally, one must pay for a license
+- Bootstrap 5.
+- JQuery.
+- icons8.com - All icons from icons8.  If you wish to use, you must either give credit or purchase.
