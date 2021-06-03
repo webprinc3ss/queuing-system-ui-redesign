@@ -18,8 +18,24 @@ $(document).ready(function () {
         document.location = 'index.html';
     });
 
-    //Sortable
-    $('tbody').sortable();
+
+
+    //Add and Remove Table Rows on Edit page
+    $(document).ready(function () {
+        $(".add-row").on("click", function () {
+            //Add new row
+            var permitType = $("#permitType").val();
+            var markup = "<tr><td>" + permitType + "</td><td class='permits'><a href='#'><img src='img/icons8-delete-64.png' alt='Remove' class='delete delete-row' /></a></td ></tr >";
+            $(markup).insertBefore('#permitID');
+        });
+
+        //Find and remove selected table rows
+        $("#table1").on("click", ".delete-row", function () {
+            console.log("delete"); //Test delete function on dynamically and non-dynamically created rows
+            $(this).closest("tr").remove(); //Use 'closest(),' not 'remove()'!
+        });
+    });
+
 
 
     //Toggle Between column content -- Just the begining.  Can be done as a feature taking all layouts in to consideration
