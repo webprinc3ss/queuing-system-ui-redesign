@@ -42,6 +42,10 @@ can be used.
 - Option to toggle between drop-down select menu positioning (can be added as a feature)
 - On the main page, I recommend a JQuery toggle between permit-types (as indicated by the drop-down menu on the mobile view).  This can be added as feature.
 - I recommend form validation/automatic field formatting for any fields, such as envelopes, which require the User to enter specific types of measurements.
+- With additonal time I would make more styling/coding touch-ups such as 
+    1. Finalizing the color scheme further; 
+    2. Tinkering with Bootstrap's css a bit more to uncover more drag and drop styling functionality as well as style hover class; and, 
+    3. JQuery functionality for drop-down hide/show columns for all responsive views (I started this but it would require more time so I abandoned feature for now.)    
 
 
 ## User Story
