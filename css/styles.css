@@ -37,6 +37,16 @@ h2 {
     color: #015F42;
 } */
 
+.table {
+         --bs-table-hover-bg: rgba(255, 255, 205, 0);
+}
+
+
+/* tr.ui-sortable-handle.ui-sortable-helper.ui-sortable-placeholder>td {
+    box-shadow: none !important;
+    background-color: #fff;
+} */
+
 .form-control:focus, .form-select:focus {
     border-color: rgba(0, 239, 104, 0.8);
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(126, 239, 104, 0.6);
