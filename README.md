@@ -23,19 +23,25 @@ multiple web pages are required links between the pages should work.
 The deliverable must be in HTML, and can use Javacript, Bootstrap, jQuery, and CSS. No other libraries or frameworks
 can be used.
 
+## Additions/Edits
+- Three responsive views with icons used for smaller views on main page.
+- Drag and drop positioner.
+- Cleaner icon choices.
+- Edit page - Incorporated all the fields in to one form for unification.
+- On both pages - included a row hover to help the eye track the row content.
+- Edit page - When a choice is selected from the drop-down menus, another row can appear.  
+- [Cooler Color Checker](https://coolors.co/contrast-checker/) Colors pass 
+- Labels included.
+- I chose main colors to contrast with at least 4/1 ratio foreground/background.
+- Options and links are keyboard-navigable.
+- HTML and CSS optimized for Chrome and MS Edge.
+- I kept main font mostly at 16px to make it easier to read for those with visual impairments (like myself).
+
 ## Recommendations
-    - Three views with icons used for smaller views on main page.
-    - Drag and drop positioner with the option to toggle between drop-down select menu positioning (can be added as a feature).  I did not include a sample of the drop-down positioner.
-    - Cleaner icon choices.
-    - On the main page, I recommend a JQuery toggle between permit-types (as indicated by the drop-down menu on the mobile view).  This can be added as feature.
-    - Edit page - Incorporated all the fields in to one form for unification.
-    - On both pages - included a row hover to help the eye track the row content.
-    - Edit page - When a choice is selected from the drop-down menus, another row can appear.  This feature can be added later with JQuery and persistent or back-end data.
-    - I recommend form validation for any fields, such as envelopes, which require the User to enter specific types of measurements.
-    - [Cooler Color Checker](https://coolors.co/contrast-checker/) Colors pass 
-    - Labels included.
-    - Options and links are keyboard-navigable.
-    - HTML and CSS optimized for Chrome and MS Edge.
+
+- Option to toggle between drop-down select menu positioning (can be added as a feature)
+- On the main page, I recommend a JQuery toggle between permit-types (as indicated by the drop-down menu on the mobile view).  This can be added as feature.
+- I recommend form validation/automatic field formatting for any fields, such as envelopes, which require the User to enter specific types of measurements.
 
 
 ## User Story
