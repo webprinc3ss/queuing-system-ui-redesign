@@ -45,12 +45,16 @@ $(document).ready(function () {
             var envelopeMin = $("#envelopeMin").val();
             var envelopeMax = $("#envelopeMax").val();
             var markup = "<tr><td>" + envelopeType +
-                "</td><td>" + envelopeMin + "</td><td>" + envelopeMax + "</td><td class='envelopes'><img src='img/icons8-delete-64.png' alt='Remove' class='delete delete-row' /></td ></tr >";
+                "</td><td>" + envelopeMin + "</td><td>" + envelopeMax + "</td><td class='envelopes'><img src='img/icons8-delete-64.png' alt='Remove' class='delete delete-row2' /></td ></tr >";
             $(markup).insertBefore('#envelopeID');
         });
 
         //Find and remove selected table rows
+        $("#table2").on("click", ".delete-row2", function () {
+            console.log("delete"); //Test delete function on dynamically and non-dynamically created rows
 
+            $(this).closest("tr").remove(); //Use 'closest(),' not 'remove()'!
+        });
 
     });
 
