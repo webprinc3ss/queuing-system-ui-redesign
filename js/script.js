@@ -18,6 +18,9 @@ $(document).ready(function () {
         document.location = 'index.html';
     });
 
+    //Sortable
+    $('tbody').sortable();
+
 
     //Toggle Between column content -- Just the begining.  Can be done as a feature taking all layouts in to consideration
     // $("select").change(function () {
