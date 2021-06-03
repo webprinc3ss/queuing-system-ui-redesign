@@ -36,17 +36,34 @@
     </style>
     <script>
         $(document).ready(function () {
-            $(".add-row").click(function () {
+            $(".add-row").on("click", function () {
+
+                // Find and remove selected table rows
+
+
+
+
+
+
+                // $(".delete-row").click(function () {
+                //     console.log("delete");
+                //     $(this).parents("tr").remove();
+                // });
+
+                //Add new row
                 var permitType = $("#permitType").val();
-                var markup = "<tr><td>" + permitType + "</td><td class='permits'><a href='#''><img src='img/icons8-delete-64.png' alt='Remove' class='delete delete-row' /></a></td ></tr >";
-                $("table tbody").append(markup);
+                var markup = "<tr><td>" + permitType + "</td><td class='permits'><a href='#'><img src='img/icons8-delete-64.png' alt='Remove' class='delete delete-row' /></a></td ></tr >";
+                $(markup).insertBefore('#permitID');
+
             });
 
-            // Find and remove selected table rows
-            $(".delete-row").click(function () {
 
-                $(this).parents("tr").remove();
+            $("#table1").on("click", ".delete-row", function () {
+                console.log("delete");
+                $(this).closest("tr").remove();
             });
+
+
         });
     </script>
     <title>Manage Queues</title>
@@ -70,7 +87,7 @@
             <label for="viewPermits" class="col-sm-2 col-form-label">Permits
             </label>
             <div class="col-sm-10">
-                <table class="table table-condensed table-striped table-hover">
+                <table class="table table-condensed table-striped table-hover" id="table1">
                     <thead>
                         <tr>
                             <th>Permit</th>
@@ -101,7 +118,7 @@
                                         class="delete delete-row" /></a>
                             </td>
                         </tr>
-                        <tr>
+                        <tr id="permitID">
                             <td>
                                 <select size="1" name="permitType" id="permitType" class="form-select"
                                     aria-label="Permit Type">
