@@ -27,7 +27,7 @@ $(document).ready(function () {
         $(".add-row").on("click", function () {
             //Add new row
             var permitType = $("#permitType").val();
-            var markup = "<tr><td>" + permitType + "</td><td class='permits'><a href='#'><img src='img/icons8-delete-64.png' alt='Remove' class='delete delete-row' /></a></td ></tr >";
+            var markup = "<tr><td>" + permitType + "</td><td class='permits'><img src='img/icons8-delete-64.png' alt='Remove' class='delete delete-row' /></td ></tr >";
             $(markup).insertBefore('#permitID');
         });
 
@@ -56,6 +56,19 @@ $(document).ready(function () {
             $(this).closest("tr").remove(); //Use 'closest(),' not 'remove()'!
         });
 
+        // Status Table functions
+        $(".add-row3").on("click", function () {
+            //Add new row
+            var statusType = $("#statusType").val();
+            var markup = "<tr><td>" + statusType + "</td><td class='statuses'><img src='img/icons8-delete-64.png' alt='Remove' class='delete delete-row3' /></td ></tr >";
+            $(markup).insertBefore('#statusID');
+        });
+
+        //Find and remove selected table rows
+        $("#table3").on("click", ".delete-row3", function () {
+            console.log("delete"); //Test delete function on dynamically and non-dynamically created rows
+            $(this).closest("tr").remove(); //Use 'closest(),' not 'remove()'!
+        });
     });
 
 

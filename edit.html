@@ -187,7 +187,7 @@
                 <label for="viewStatuses" class="col-sm-2 col-form-label">Statuses
                 </label>
                 <div class="col-sm-10">
-                    <table class="table table-condensed table-striped table-hover">
+                    <table class="table table-condensed table-striped table-hover" id="table3">
                         <thead>
                             <tr>
                                 <th>Statuses</th>
@@ -198,27 +198,30 @@
                             <tr>
                                 <td>Approved</td>
                                 <td class="statuses">
-                                    <a href="#"><img src="img/icons8-delete-64.png" alt="Remove" class="delete" /></a>
+                                    <a href="#"><img src="img/icons8-delete-64.png" alt="Remove"
+                                            class="delete delete-row3" /></a>
                                 </td>
                             </tr>
                             <tr>
                                 <td>Rejected</td>
                                 <td class="statuses">
-                                    <a href="#"><img src="img/icons8-delete-64.png" alt="Remove" class="delete" /></a>
+                                    <a href="#"><img src="img/icons8-delete-64.png" alt="Remove"
+                                            class="delete delete-row3" /></a>
                                 </td>
                             </tr>
-                            <tr>
+                            <tr id="statusID">
                                 <td>
-                                    <select size="1" class="form-select" aria-label="Status Type">
-                                        <option value="#" selected="selected" class="view-types">Approved
+                                    <select size="1" id="statusType" name="statusType" class="form-select"
+                                        aria-label="Status Type">
+                                        <option value="Approved" selected="selected" class="view-types">Approved
                                         </option>
-                                        <option value="#">None</option>
-                                        <option value="#">Rejected</option>
+                                        <option value="None">None</option>
+                                        <option value="Rejected">Rejected</option>
                                     </select>
                                 </td>
-                                <td class="statuses"><button type="button" class="btn btn-success add-btn "
-                                        label="addStatus">Add</button><a href="#"><img src="img/icons8-add-48.png"
-                                            alt="Add" class="add" /></a>
+                                <td class="statuses"><button type="button" class="btn btn-success add-btn add-row3"
+                                        label="addStatus">Add</button><img src="img/icons8-add-48.png" alt="Add"
+                                        class="add add-row3" />
                                 </td>
                             </tr>
                         </tbody>
