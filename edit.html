@@ -126,8 +126,8 @@
                                     </select>
                                 </td>
                                 <td class="permits"><button type="button" class="btn btn-success add-btn add-row"
-                                        label="addPermit">Add</button><a href="#"><img src="img/icons8-add-48.png"
-                                            alt="Add" class="add add-row" /></a>
+                                        label="addPermit">Add</button><img src="img/icons8-add-48.png" alt="Add"
+                                        class="add add-row" />
                                 </td>
                             </tr>
                         </tbody>
@@ -138,7 +138,7 @@
                 <label for="viewEnvelopes" class="col-sm-2 col-form-label">Envelopes
                 </label>
                 <div class="col-sm-10">
-                    <table class="table table-condensed table-striped table-hover">
+                    <table class="table table-condensed table-striped table-hover table2">
                         <thead>
                             <tr>
                                 <th>Measurement Type</th>
@@ -152,31 +152,30 @@
                                 <td>Gross Vehicle Weight</td>
                                 <td>80,000</td>
                                 <td>120,000</td>
-
-
-
                                 <td class="envelopes">
-                                    <a href="#"><img src="img/icons8-delete-64.png" alt="Remove" class="delete" /></a>
+                                    <img src="img/icons8-delete-64.png" alt="Remove" class="delete delete-row" />
                                 </td>
                             </tr>
                             <tr>
-                                <td>
-                                    <select size="1" class="form-select" aria-label="Measurement Type">
-                                        <option value="#" selected="selected" class="view-types">Gross Vehicle Weight
+                                <td id="envelopeID">
+                                    <select size="1" name="envelopeType" id="envelopeType" class="form-select"
+                                        aria-label="Measurement Type">
+                                        <option value="Gross Vehicle Weight" selected="selected" class="view-types">
+                                            Gross Vehicle Weight
                                         </option>
-                                        <option value="#">Another Measurement</option>
-                                        <option value="#">Yet Measurement</option>
+                                        <option value="Another Measurement">Another Measurement</option>
+                                        <option value="Yet Measurement">Yet Measurement</option>
                                     </select>
                                 </td>
-                                <td><input type="text" class="form-control" id="envelopeMin" placeholder="Minimum *"
-                                        aria-label="envelopeMin">
+                                <td><input type="text" class="form-control" id="envelopeMin" name="envelopeMin"
+                                        placeholder="Minimum *" aria-label="envelopeMin">
                                 </td>
-                                <td><input type="text" class="form-control" id="envelopeMax" placeholder="Maximum *"
-                                        aria-label="envelopeMax">
+                                <td><input type="text" class="form-control" id="envelopeMax" name="envelopeMax"
+                                        placeholder="Maximum *" aria-label="envelopeMax">
                                 </td>
-                                <td class="envelopes"><button type="button" class="btn btn-success add-btn"
-                                        label="addEnvelope">Add</button><a href="#"><img src="img/icons8-add-48.png"
-                                            alt="Add" class="add" /></a>
+                                <td class="envelopes"><button type="button" class="btn btn-success add-btn add-row2"
+                                        value="Add" label="addEnvelope">Add</button><img src="img/icons8-add-48.png"
+                                        alt="Add" class="add add-row2" />
                                 </td>
                             </tr>
                         </tbody>
