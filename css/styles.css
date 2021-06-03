@@ -67,11 +67,9 @@ table.table-hover tbody tr:hover {
 /* tbody:hover, td:hover, tfoot, th:hover, tr:hover {
     box-shadow:none;
 }
-
 tr>td:hover {
     box-shadow:none;
 }
-
 .table>tr:hover {
     box-shadow:none;
 } */
@@ -279,5 +277,3 @@ select {
         display: none;
     }
 }
-
-
