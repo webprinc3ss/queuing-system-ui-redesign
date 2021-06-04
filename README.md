@@ -40,6 +40,8 @@ can be used.
 ## Recommendations
 
 - Option to toggle between drop-down select menu positioning (can be added as a feature)
+- Add an option to use row-weight sorting (toggle between this and drag and drop options).  Also would work better on mobile.
+- Add automatic position renumbering based on new position.
 - On the main page, I recommend a JQuery toggle between permit-types (as indicated by the drop-down menu on the mobile view).  This can be added as feature.
 - I recommend form validation/automatic field formatting for any fields, such as envelopes, which require the User to enter specific types of measurements.
 - With additonal time I would make more styling/coding touch-ups such as 
